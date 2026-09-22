@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ingest:faq": "node src/utils/injestion/ingestFaq.js",
+    "dev": "node api.js && nodemon src/chat.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.47",
+    "@langchain/core": "^0.3.61",
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/openai": "^0.5.16",
+    "@pinecone-database/pinecone": "^6.1.1",
+    "axios": "^1.10.0",
+    "chrono-node": "^2.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^10.1.0",
+    "googleapis": "^152.0.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.16.2",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "socket.io": "^4.8.1"
+  }
+}
