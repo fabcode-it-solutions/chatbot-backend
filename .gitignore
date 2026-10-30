@@ -2,5 +2,5 @@ node_modules
 temp_auto_push.bat
 .env.gitignore
 temp_interactive_push.bat
-.env
 branch_structure.json
+config.bat

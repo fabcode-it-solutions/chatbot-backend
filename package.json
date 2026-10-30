@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "ingest:faq": "node src/utils/injestion/ingestFaq.js",
-    "dev": "node api.js && nodemon src/chat.js"
+    "dev": "node init && nodemon src/chat.js"
   },
   "author": "",
   "license": "ISC",
